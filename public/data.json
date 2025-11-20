@@ -1,0 +1,122 @@
+[
+  {
+    "toyId": 1,
+    "toyName": "Lego Classic Bricks",
+    "sellerName": "Toys R Us Local",
+    "sellerEmail": "contact@toysruslocal.com",
+    "price": 49.99,
+    "rating": 4.7,
+    "availableQuantity": 75,
+    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving. Kids can build anything they imagine, from houses to vehicles.",
+    "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmwSKUyQSKTb9eHuzEK-YcoDXAZ_s-67ELw&s",
+    "subCategory": "Building Blocks"
+  },
+  {
+    "toyId": 2,
+    "toyName": "Remote Control Sports Car",
+    "sellerName": "Zoomy Toys",
+    "sellerEmail": "support@zoomytoys.com",
+    "price": 89.5,
+    "rating": 4.9,
+    "availableQuantity": 40,
+    "description": "A sleek and powerful remote-control car designed for speed and fun. Includes rechargeable battery and wireless controller.",
+    "pictureURL": "https://www.shutterstock.com/image-photo/remote-controlled-toy-car-game-600nw-2459100459.jpg",
+    "subCategory": "Remote Control"
+  },
+  {
+    "toyId": 3,
+    "toyName": "Barbie Dreamhouse Doll Set",
+    "sellerName": "Doll Paradise",
+    "sellerEmail": "info@dollparadise.com",
+    "price": 129.99,
+    "rating": 4.6,
+    "availableQuantity": 30,
+    "description": "A 3-story dreamhouse with furniture, lighting, and interactive play zones for endless storytelling fun.",
+    "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj_pA_FTleOKXctsphvznAldFK8D3qyKHOUw&s",
+    "subCategory": "Dolls"
+  },
+  {
+    "toyId": 4,
+    "toyName": "Wooden Train Set",
+    "sellerName": "Tiny Tracks",
+    "sellerEmail": "hello@tinytracks.com",
+    "price": 34.99,
+    "rating": 4.5,
+    "availableQuantity": 120,
+    "description": "A classic wooden train set with magnetic cars and track pieces. Encourages fine motor skills and imaginative play.",
+    "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4EcWb3efGeYHJR-67qIGs2vjCWEQRZMLlg&s",
+    "subCategory": "Educational Toys"
+  },
+  {
+    "toyId": 5,
+    "toyName": "Action Hero Figure",
+    "sellerName": "Hero World",
+    "sellerEmail": "sales@heroworld.com",
+    "price": 24.99,
+    "rating": 4.3,
+    "availableQuantity": 200,
+    "description": "A highly detailed superhero action figure with moveable joints and weapons for battle play.",
+    "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVOzV8R4dOTsc_FAd5rezKBt4IRtKVnli4A&s",
+    "subCategory": "Action Figures"
+  },
+  {
+    "toyId": 6,
+    "toyName": "Rubik’s Cube 3x3",
+    "sellerName": "Mind Games",
+    "sellerEmail": "contact@mindgames.com",
+    "price": 9.99,
+    "rating": 4.8,
+    "availableQuantity": 300,
+    "description": "The world-famous puzzle cube that challenges problem-solving skills and logical thinking.",
+    "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_QaoXYpX8DEGff278QUxnsKtCgAkp6Eyg8BCj1GOzdb1A9OgXh3eg5JaRDJTU3futLpE&usqp=CAU",
+    "subCategory": "Brain Games"
+  },
+  {
+    "toyId": 7,
+    "toyName": "Teddy Bear Plush Toy",
+    "sellerName": "Cuddle Corner",
+    "sellerEmail": "hello@cuddlecorner.com",
+    "price": 19.99,
+    "rating": 4.4,
+    "availableQuantity": 150,
+    "description": "Soft and cuddly teddy bear perfect for bedtime hugs and imaginative playtime fun.",
+    "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ_huN33b7fh0lu8vj5xHwFbA-YHQMHR3BXA&s",
+    "subCategory": "Stuffed Toys"
+  },
+  {
+    "toyId": 8,
+    "toyName": "Building Block Robot Kit",
+    "sellerName": "TechToys",
+    "sellerEmail": "support@techtoys.com",
+    "price": 69.99,
+    "rating": 4.9,
+    "availableQuantity": 55,
+    "description": "STEM learning robot kit that combines building blocks with motorized movement. Build, code, and control your own robot!",
+    "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR58qL7Zonedl2KdZGHY01ll9ilds917IUn3A&s",
+    "subCategory": "STEM Toys"
+  },
+  {
+    "toyId": 9,
+    "toyName": "Toy Kitchen Set",
+    "sellerName": "Little Chefs",
+    "sellerEmail": "info@littlechefs.com",
+    "price": 54.99,
+    "rating": 4.6,
+    "availableQuantity": 60,
+    "description": "A mini kitchen playset complete with utensils, stove, and play food. Sparks creativity through pretend cooking.",
+    "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxP9eYI9UgctD6bM6h-soFkStI8cxtdPN_fw&s",
+    "subCategory": "Pretend Play"
+  },
+  {
+    "toyId": 10,
+    "toyName": "Kids Drone Mini Quadcopter",
+    "sellerName": "SkyFly",
+    "sellerEmail": "sales@skyfly.com",
+    "price": 99.99,
+    "rating": 4.7,
+    "availableQuantity": 25,
+    "description": "Compact drone with 720p camera, altitude hold, and one-key takeoff/landing — perfect for beginners!",
+    "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgLdaT23e_DYVHZnTaJvKlgPfvA-IR461q8A&s",
+    "subCategory": "Remote Control"
+  }
+]
