@@ -38,7 +38,8 @@ const CardDetails = () => {
 
   return (
     <div className="max-w-5xl mx-auto my-12 p-6 bg-white rounded-2xl shadow-lg">
-      <title> {toy.toyName} </title>
+      <title>{toy.toyName}</title>
+
       <h1 className="text-4xl md:text-5xl font-extrabold text-center text-black mb-10">
         {toy.toyName}
       </h1>
@@ -62,8 +63,7 @@ const CardDetails = () => {
             {toy.sellerEmail}
           </p>
           <p className="text-lg">
-            <span className="font-semibold text-black">Price:</span> $
-            {toy.price}
+            <span className="font-semibold text-black">Price:</span> ${toy.price}
           </p>
           <p className="text-lg">
             <span className="font-semibold text-black">Rating:</span> ⭐{" "}
@@ -82,7 +82,45 @@ const CardDetails = () => {
         </div>
       </div>
 
-      {/* Try Now Form */}
+      {/* ✅ ===== Additional Product Information (NOW BEFORE TRY NOW) ===== ✅ */}
+      <div className="mt-12 border-t pt-8 space-y-10">
+
+  {/* ✅ Product Overview */}
+  <div>
+    <h3 className="text-2xl font-semibold mb-1">Product Overview</h3>
+    <div className="border-b mb-4"></div>
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-gray-700 text-sm">
+      <p><b>Brand:</b> {toy.brand}</p>
+      <p><b>Age Range:</b> {toy.ageRange}</p>
+      <p><b>Material:</b> {toy.material}</p>
+    </div>
+  </div>
+
+  {/* ✅ Technical Details */}
+  <div>
+    <h3 className="text-2xl font-semibold mb-1">Technical Details</h3>
+    <div className="border-b mb-4"></div>
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-gray-700 text-sm">
+      <p><b>Weight:</b> {toy.weight}</p>
+      <p><b>Dimensions:</b> {toy.dimensions}</p>
+      <p><b>Battery Required:</b> {toy.batteryRequired ? "Yes" : "No"}</p>
+    </div>
+  </div>
+
+  {/* ✅ Shipping & Warranty */}
+  <div>
+    <h3 className="text-2xl font-semibold mb-1">Shipping & Warranty</h3>
+    <div className="border-b mb-4"></div>
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-gray-700 text-sm">
+      <p><b>Warranty:</b> {toy.warranty}</p>
+      <p><b>Delivery Time:</b> {toy.deliveryTime}</p>
+      <p><b>Return Policy:</b> 7 Days Easy Return</p>
+    </div>
+  </div>
+
+</div>
+
+      {/* ✅ ===== Try Now Form (NOW AFTER ADDITIONAL INFO) ===== ✅ */}
       <form
         onSubmit={handleSubmit}
         className="mt-12 bg-gray-50 border border-gray-200 p-6 rounded-xl shadow-sm max-w-2xl mx-auto"

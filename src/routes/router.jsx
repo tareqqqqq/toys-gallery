@@ -8,6 +8,10 @@ import MyProfile from "../pages/MyProfile"
 import Blogs from "../pages/Blogs"
 import PrivateProvider from "../provider/PrivateProvider"
 import ErrorPages from "../pages/ErrorPages"
+import Items from "../pages/Items"
+import About from "../pages/About"
+import Contact from "../pages/Contact"
+import Support from "../pages/Support"
 
 const router =createBrowserRouter(
     [
@@ -23,6 +27,21 @@ const router =createBrowserRouter(
                 {
                     path: "/blogs",
                     element: <Blogs></Blogs>,
+                    
+                },
+                {
+                    path: "/about",
+                    element: <About/>,
+                    
+                },
+                {
+                    path: "/support",
+                    element: <Support/>,
+                    
+                },
+                {
+                    path: "/contact",
+                    element: <Contact/>,
                     
                 },
                 {
@@ -48,6 +67,12 @@ const router =createBrowserRouter(
                     element: <PrivateProvider>
                         <MyProfile></MyProfile>
                     </PrivateProvider>,
+                    
+                },
+                {
+                    path: "/items",
+                    element: <Items/>
+                        
                     
                 },
                 

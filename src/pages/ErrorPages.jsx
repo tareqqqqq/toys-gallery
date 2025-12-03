@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const ErrorPages = () => {
     return (
-       <div className="flex flex-col justify-center items-center h-screen bg-gradient-to-br from-purple-100 to-blue-100 text-center">
+       <div className="flex flex-col justify-center items-center h-screen bg-linear-to-br from-purple-100 to-blue-100 text-center">
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlIA38LOAuumFUpGAuCoHJTta_eI2N0Cf8rw&s"
         alt="404"

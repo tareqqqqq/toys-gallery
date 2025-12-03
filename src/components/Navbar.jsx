@@ -1,42 +1,40 @@
 import React, { useContext } from "react";
 import { Link, NavLink } from "react-router";
-
-import { AuthContext } from "../provider/AuthContext";
 import Swal from "sweetalert2";
-import Loading from '../pages/Loading'
+import { AuthContext } from "../provider/AuthContext";
+import Loading from "../pages/Loading";
 
 const Navbar = () => {
-  const { user, signout,loading } = useContext(AuthContext);
-  const userIcon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIf4R5qPKHPNMyAqV-FjS_OTBB8pfUV29Phg&s"
+  const { user, signout, loading } = useContext(AuthContext);
+
+  const userIcon =
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIf4R5qPKHPNMyAqV-FjS_OTBB8pfUV29Phg&s";
 
   if (loading) {
-    
     return (
       <div className="bg-white text-black py-4">
-       <Loading></Loading>
+        <Loading />
       </div>
     );
   }
 
   const handleLogOut = () => {
-
-
- 
-
     signout()
       .then(() => {
-         Swal.fire({
-        icon: 'success',
-        title: 'Logged Out',
-        text: 'You have successfully logged out!',
-        timer: 2000,
-        showConfirmButton: false,
-      });
-
+        Swal.fire({
+          icon: "success",
+          title: "Logged Out",
+          text: "You have successfully logged out!",
+          timer: 1500,
+          showConfirmButton: false,
+        });
       })
       .catch((error) => console.log(error));
   };
 
+  // -------------------------
+  // NAVLINKS (5 Required Routes)
+  // -------------------------
   const navLinks = (
     <>
       <li>
@@ -44,98 +42,142 @@ const Navbar = () => {
           to="/"
           className={({ isActive }) =>
             isActive
-              ? "text-yellow-400 font-bold border-b-2 border-yellow-400"
-              : "text-white font-bold hover:text-yellow-400"
+              ? "text-yellow-400 font-bold"
+              : "hover:text-yellow-300"
           }
         >
           Home
         </NavLink>
       </li>
+
       <li>
         <NavLink
-          to="/blogs"
+          to="/items"
           className={({ isActive }) =>
             isActive
-              ? "text-yellow-400 font-bold border-b-2 border-yellow-400"
-              : "text-white font-bold hover:text-yellow-400"
+              ? "text-yellow-400 font-bold"
+              : "hover:text-yellow-300"
           }
         >
-          Blogs
+          All Items
         </NavLink>
       </li>
+
       <li>
         <NavLink
-          to="/myProfile"
+          to="/about"
           className={({ isActive }) =>
             isActive
-              ? "text-yellow-400 font-bold border-b-2 border-yellow-400"
-              : "text-white font-bold hover:text-yellow-400"
+              ? "text-yellow-400 font-bold"
+              : "hover:text-yellow-300"
           }
         >
-          My Profile
+          About Us
         </NavLink>
       </li>
+
+      <li>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive
+              ? "text-yellow-400 font-bold"
+              : "hover:text-yellow-300"
+          }
+        >
+          Contact
+        </NavLink>
+      </li>
+
+      <li>
+        <NavLink
+          to="/support"
+          className={({ isActive }) =>
+            isActive
+              ? "text-yellow-400 font-bold"
+              : "hover:text-yellow-300"
+          }
+        >
+          Support
+        </NavLink>
+      </li>
+
+      {/* Show MyProfile only when logged in (NOT private route otherwise) */}
+      {user && (
+        <li>
+          <NavLink
+            to="/myProfile"
+            className={({ isActive }) =>
+              isActive
+                ? "text-yellow-400 font-bold"
+                : "hover:text-yellow-300"
+            }
+          >
+            My Profile
+          </NavLink>
+        </li>
+      )}
     </>
   );
 
   return (
-    <div className="navbar bg-black text-white py-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <div className="navbar bg-black text-white sticky top-0 z-50 shadow-xl">
+      <div className="container mx-auto px-4 flex justify-between items-center py-3">
 
-        {/* Mobile dropdown */}
-        <div className="dropdown md:hidden relative">
+        {/* Mobile Menu */}
+        <div className="dropdown md:hidden">
           <label tabIndex={0} className="btn btn-ghost text-white">
             ☰
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-gray-900 rounded-box w-44 left-0 top-full"
+            className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-gray-900 rounded-box w-48"
           >
             {navLinks}
           </ul>
         </div>
-        {/* Logo */}
-        <div>
-          <h1 className="text-yellow-400 text-2xl md:text-3xl font-bold">
-            Toys <span className="text-lime-200">Gallary</span>
-          </h1>
-        </div>
 
-        {/* Desktop menu */}
+        {/* Logo */}
+        <Link to="/" className="text-yellow-400 text-2xl font-bold">
+          Toys <span className="text-lime-300">Gallery</span>
+        </Link>
+
+        {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6">{navLinks}</ul>
 
-        
-
-        {/* User section */}
+        {/* User Section */}
         <div className="flex items-center gap-4">
+
+          {/* Avatar */}
           {user ? (
             <div
               className="tooltip tooltip-bottom"
               data-tip={user.displayName || "User"}
             >
               <img
-                className="w-10 md:w-12 rounded-full border-2 border-yellow-400"
-                src={user.photoURL || userIcon }
+                className="w-10 h-10 rounded-full border-2 border-yellow-400"
+                src={user.photoURL || userIcon}
                 alt="User"
               />
             </div>
           ) : (
             <img
-              className="w-10 md:w-12 rounded-full border-2 border-gray-400"
+              className="w-10 h-10 rounded-full border-2 border-gray-400"
               src={userIcon}
               alt="Guest"
             />
           )}
 
+          {/* Auth Buttons */}
           {user ? (
             <button
               onClick={handleLogOut}
-              className="btn bg-white text-xl font-extrabold text-black px-4 md:px-8"
+              className="btn bg-white text-black font-bold px-4"
             >
-              LogOut
+              Logout
             </button>
           ) : (
-            <Link to="/auth/login" className="btn btn-primary px-4 md:px-8">
+            <Link to="/auth/login" className="btn btn-primary px-5">
               Login
             </Link>
           )}

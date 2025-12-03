@@ -7,10 +7,22 @@
     "price": 49.99,
     "rating": 4.7,
     "availableQuantity": 75,
-    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving. Kids can build anything they imagine, from houses to vehicles.",
+    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving.",
     "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmwSKUyQSKTb9eHuzEK-YcoDXAZ_s-67ELw&s",
-    "subCategory": "Building Blocks"
+    "subCategory": "Building Blocks",
+
+    "brand": "LEGO",
+    "ageRange": "5+ Years",
+    "material": "Plastic",
+    "weight": "1.2kg",
+    "dimension": "30x20x10 cm",
+    "color": "Multicolor",
+    "countryOfOrigin": "Denmark",
+    "releaseYear": 2023,
+    "warranty": "1 Year",
+    "stockStatus": "In Stock"
   },
+
   {
     "toyId": 2,
     "toyName": "Remote Control Sports Car",
@@ -19,10 +31,22 @@
     "price": 89.5,
     "rating": 4.9,
     "availableQuantity": 40,
-    "description": "A sleek and powerful remote-control car designed for speed and fun. Includes rechargeable battery and wireless controller.",
+    "description": "A sleek and powerful remote-control car designed for speed and fun.",
     "pictureURL": "https://www.shutterstock.com/image-photo/remote-controlled-toy-car-game-600nw-2459100459.jpg",
-    "subCategory": "Remote Control"
+    "subCategory": "Remote Control",
+
+    "brand": "Zoomy",
+    "ageRange": "7+ Years",
+    "material": "ABS Plastic",
+    "weight": "900g",
+    "dimension": "28x14x10 cm",
+    "color": "Red",
+    "countryOfOrigin": "China",
+    "releaseYear": 2024,
+    "warranty": "6 Months",
+    "stockStatus": "In Stock"
   },
+
   {
     "toyId": 3,
     "toyName": "Barbie Dreamhouse Doll Set",
@@ -31,10 +55,22 @@
     "price": 129.99,
     "rating": 4.6,
     "availableQuantity": 30,
-    "description": "A 3-story dreamhouse with furniture, lighting, and interactive play zones for endless storytelling fun.",
+    "description": "A 3-story dreamhouse with furniture and lighting.",
     "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj_pA_FTleOKXctsphvznAldFK8D3qyKHOUw&s",
-    "subCategory": "Dolls"
+    "subCategory": "Dolls",
+
+    "brand": "Barbie",
+    "ageRange": "6+ Years",
+    "material": "Plastic",
+    "weight": "2.5kg",
+    "dimension": "60x45x15 cm",
+    "color": "Pink",
+    "countryOfOrigin": "USA",
+    "releaseYear": 2022,
+    "warranty": "1 Year",
+    "stockStatus": "Limited"
   },
+
   {
     "toyId": 4,
     "toyName": "Wooden Train Set",
@@ -43,10 +79,22 @@
     "price": 34.99,
     "rating": 4.5,
     "availableQuantity": 120,
-    "description": "A classic wooden train set with magnetic cars and track pieces. Encourages fine motor skills and imaginative play.",
+    "description": "A classic wooden train set with magnetic cars.",
     "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4EcWb3efGeYHJR-67qIGs2vjCWEQRZMLlg&s",
-    "subCategory": "Educational Toys"
+    "subCategory": "Educational Toys",
+
+    "brand": "Tiny Tracks",
+    "ageRange": "3+ Years",
+    "material": "Wood",
+    "weight": "1.8kg",
+    "dimension": "40x25x12 cm",
+    "color": "Brown",
+    "countryOfOrigin": "India",
+    "releaseYear": 2021,
+    "warranty": "6 Months",
+    "stockStatus": "In Stock"
   },
+
   {
     "toyId": 5,
     "toyName": "Action Hero Figure",
@@ -55,10 +103,22 @@
     "price": 24.99,
     "rating": 4.3,
     "availableQuantity": 200,
-    "description": "A highly detailed superhero action figure with moveable joints and weapons for battle play.",
+    "description": "A highly detailed superhero action figure.",
     "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVOzV8R4dOTsc_FAd5rezKBt4IRtKVnli4A&s",
-    "subCategory": "Action Figures"
+    "subCategory": "Action Figures",
+
+    "brand": "Hero World",
+    "ageRange": "6+ Years",
+    "material": "PVC",
+    "weight": "450g",
+    "dimension": "18x8x5 cm",
+    "color": "Blue",
+    "countryOfOrigin": "Japan",
+    "releaseYear": 2023,
+    "warranty": "No Warranty",
+    "stockStatus": "In Stock"
   },
+
   {
     "toyId": 6,
     "toyName": "Rubik’s Cube 3x3",
@@ -67,10 +127,22 @@
     "price": 9.99,
     "rating": 4.8,
     "availableQuantity": 300,
-    "description": "The world-famous puzzle cube that challenges problem-solving skills and logical thinking.",
+    "description": "The world-famous puzzle cube.",
     "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_QaoXYpX8DEGff278QUxnsKtCgAkp6Eyg8BCj1GOzdb1A9OgXh3eg5JaRDJTU3futLpE&usqp=CAU",
-    "subCategory": "Brain Games"
+    "subCategory": "Brain Games",
+
+    "brand": "Rubiks",
+    "ageRange": "8+ Years",
+    "material": "Plastic",
+    "weight": "200g",
+    "dimension": "6x6x6 cm",
+    "color": "Multicolor",
+    "countryOfOrigin": "Hungary",
+    "releaseYear": 2020,
+    "warranty": "No Warranty",
+    "stockStatus": "In Stock"
   },
+
   {
     "toyId": 7,
     "toyName": "Teddy Bear Plush Toy",
@@ -79,10 +151,22 @@
     "price": 19.99,
     "rating": 4.4,
     "availableQuantity": 150,
-    "description": "Soft and cuddly teddy bear perfect for bedtime hugs and imaginative playtime fun.",
+    "description": "Soft and cuddly teddy bear.",
     "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ_huN33b7fh0lu8vj5xHwFbA-YHQMHR3BXA&s",
-    "subCategory": "Stuffed Toys"
+    "subCategory": "Stuffed Toys",
+
+    "brand": "Cuddle Corner",
+    "ageRange": "All Ages",
+    "material": "Cotton",
+    "weight": "700g",
+    "dimension": "35x20x15 cm",
+    "color": "Brown",
+    "countryOfOrigin": "Bangladesh",
+    "releaseYear": 2022,
+    "warranty": "No Warranty",
+    "stockStatus": "In Stock"
   },
+
   {
     "toyId": 8,
     "toyName": "Building Block Robot Kit",
@@ -91,10 +175,22 @@
     "price": 69.99,
     "rating": 4.9,
     "availableQuantity": 55,
-    "description": "STEM learning robot kit that combines building blocks with motorized movement. Build, code, and control your own robot!",
+    "description": "STEM learning robot kit.",
     "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR58qL7Zonedl2KdZGHY01ll9ilds917IUn3A&s",
-    "subCategory": "STEM Toys"
+    "subCategory": "STEM Toys",
+
+    "brand": "TechToys",
+    "ageRange": "9+ Years",
+    "material": "Plastic & Metal",
+    "weight": "1.5kg",
+    "dimension": "32x24x12 cm",
+    "color": "Black",
+    "countryOfOrigin": "South Korea",
+    "releaseYear": 2024,
+    "warranty": "1 Year",
+    "stockStatus": "Limited"
   },
+
   {
     "toyId": 9,
     "toyName": "Toy Kitchen Set",
@@ -103,10 +199,22 @@
     "price": 54.99,
     "rating": 4.6,
     "availableQuantity": 60,
-    "description": "A mini kitchen playset complete with utensils, stove, and play food. Sparks creativity through pretend cooking.",
+    "description": "A mini kitchen playset complete with utensils.",
     "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxP9eYI9UgctD6bM6h-soFkStI8cxtdPN_fw&s",
-    "subCategory": "Pretend Play"
+    "subCategory": "Pretend Play",
+
+    "brand": "Little Chefs",
+    "ageRange": "4+ Years",
+    "material": "Plastic",
+    "weight": "2kg",
+    "dimension": "50x40x20 cm",
+    "color": "White",
+    "countryOfOrigin": "China",
+    "releaseYear": 2023,
+    "warranty": "6 Months",
+    "stockStatus": "In Stock"
   },
+
   {
     "toyId": 10,
     "toyName": "Kids Drone Mini Quadcopter",
@@ -115,8 +223,19 @@
     "price": 99.99,
     "rating": 4.7,
     "availableQuantity": 25,
-    "description": "Compact drone with 720p camera, altitude hold, and one-key takeoff/landing — perfect for beginners!",
+    "description": "Compact drone with 720p camera.",
     "pictureURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgLdaT23e_DYVHZnTaJvKlgPfvA-IR461q8A&s",
-    "subCategory": "Remote Control"
+    "subCategory": "Remote Control",
+
+    "brand": "SkyFly",
+    "ageRange": "10+ Years",
+    "material": "ABS Plastic",
+    "weight": "850g",
+    "dimension": "22x22x6 cm",
+    "color": "Black",
+    "countryOfOrigin": "Germany",
+    "releaseYear": 2024,
+    "warranty": "1 Year",
+    "stockStatus": "Limited"
   }
 ]
